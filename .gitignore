@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+research-agent/state.json*
+research-agent/research_queue*.json
+research-agent/review_queue.json
+research-agent/signal_log.json
+research-agent/structured_offers.json
+research-agent/reports/
+*.pem
+*.key
+.env
+.env.*
