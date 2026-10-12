@@ -18,17 +18,19 @@ Python 3 and `certifi` are required.
 
 Create and activate a virtual environment:
 
-    python3 -m venv .venv
-    source .venv/bin/activate
-    python -m pip install -r requirements.txt
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
 
-Run:
+Run the regression tests:
 
-    python -m unittest discover -s research-agent -p 'test_*.py' -v
+```bash
+python -m unittest discover -s research-agent -p 'test_*.py' -v
+```
 
-These regression tests check cursor-handling safeguards and source validity.
-They are not an end-to-end test of the live Technocore service.
-
+These regression tests check cursor-handling safeguards and source validity. They are not an end-to-end test of the live Technocore service.
 ## Roadmap
 
 - Improve prioritization of substantive messages over repetitive greetings.
